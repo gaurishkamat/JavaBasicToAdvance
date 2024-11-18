@@ -1,10 +1,8 @@
 package org.example;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.concurrent.locks.Condition;
 
 public class Unit1Exercise {
 
@@ -18,7 +16,7 @@ public class Unit1Exercise {
 
         //write a method to sort the people using lastname
 
-        people.sort((p1, p2)-> p1.getLastname().compareTo(p2.getLastname()));
+        people.sort(Comparator.comparing(Person::getLastname));
 
 
         //write a method to print all the people
