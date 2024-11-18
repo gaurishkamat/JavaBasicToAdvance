@@ -13,6 +13,7 @@ public class Unit2Exercise {
         );
 
         for(Person p: people){
+            System.out.println("Display people in list:");
             System.out.println(p);
         }
     }
