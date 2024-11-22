@@ -2,18 +2,19 @@ package org.example;
 
 import java.util.Scanner;
 
-public class SimpleInterest {
+class CompoundInterest {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter principle amount: ");
-        int amount = input.nextInt();
+        float amount = input.nextFloat();
         System.out.print("Enter time in years: ");
-        int time = input.nextInt();
+        float time = input.nextFloat();
         System.out.print("Enter rate of interest: ");
-        int interest = input.nextInt();
+        double interest = input.nextFloat();
 
-        double simpleInterest = (double) (amount * time * interest) / 100;
+        double compoundInterest = (double) amount * (1 + (interest/100)) * time;
 
-        System.out.println("Simple Interest: " + simpleInterest);
+        System.out.println("Compound Interest: " + compoundInterest);
     }
 }

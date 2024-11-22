@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class AreaTriangle {
+class AreaTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter height of triangle: ");

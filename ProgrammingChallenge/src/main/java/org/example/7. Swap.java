@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Swap {
+class Swap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter first number: ");

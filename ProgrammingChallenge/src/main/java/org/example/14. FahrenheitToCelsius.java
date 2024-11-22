@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class FahrenheitToCelsius {
+class FahrenheitToCelsius {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
