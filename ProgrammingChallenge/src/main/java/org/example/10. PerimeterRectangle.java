@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class PerimeterRectangle {
+class PerimeterRectangle {
 
     public static void main(String[] args) {
 
