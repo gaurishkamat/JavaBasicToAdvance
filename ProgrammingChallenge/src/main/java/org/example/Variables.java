@@ -1,4 +1,4 @@
-package kg.coding.challenges;
+package org.example;
 
 public class Variables {
     public static void main(String[] args) {

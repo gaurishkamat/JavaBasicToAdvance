@@ -1,4 +1,4 @@
-package kg.coding.challenges;
+package org.example;
 
 import java.util.Scanner;
 
