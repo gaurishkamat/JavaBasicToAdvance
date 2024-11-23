@@ -13,7 +13,7 @@ class CompoundInterest {
         System.out.print("Enter rate of interest: ");
         double interest = input.nextFloat();
 
-        double compoundInterest = (double) amount * (1 + (interest/100)) * time;
+        double compoundInterest = (double) amount * Math.pow((1 + interest / 100), time);
 
         System.out.println("Compound Interest: " + compoundInterest);
     }
