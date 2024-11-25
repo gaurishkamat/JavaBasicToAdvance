@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="change in logic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +33,22 @@
     &quot;assignee&quot;: &quot;gaurishkamat&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gaurishkamat/JavaBasicToAdvance.git",
-    "accountId": "67417991-98a6-41a1-a78b-fbc7299c209d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gaurishkamat/JavaBasicToAdvance.git&quot;,
+    &quot;accountId&quot;: &quot;67417991-98a6-41a1-a78b-fbc7299c209d&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "gaurishkamat",
-    "repository": "JavaBasicToAdvance"
+    &quot;owner&quot;: &quot;gaurishkamat&quot;,
+    &quot;repository&quot;: &quot;JavaBasicToAdvance&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -59,6 +61,9 @@
   "keyToString": {
     "Application.AreaTriangle.executor": "Run",
     "Application.ArithmeticOperations.executor": "Run",
+    "Application.BitwiseAnd.executor": "Run",
+    "Application.BitwiseCompliment.executor": "Run",
+    "Application.BitwiseOddEven.executor": "Run",
     "Application.CalculateGrades.executor": "Run",
     "Application.CategorizePeople.executor": "Run",
     "Application.CheckNumber.executor": "Run",
@@ -66,16 +71,19 @@
     "Application.FahrenheitToCelsius.executor": "Run",
     "Application.GreatestOfThree.executor": "Run",
     "Application.LeapYear.executor": "Run",
+    "Application.LeftShift.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
     "Application.ProductFloat.executor": "Run",
+    "Application.RightShift.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.Subscribe.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -87,9 +95,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CategorizePeople">
-    <configuration name="CalculateGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CalculateGrades" />
+  <component name="RunManager" selected="Application.BitwiseOddEven">
+    <configuration name="BitwiseAnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BitwiseAnd" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategorizePeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CategorizePeople" />
+    <configuration name="BitwiseCompliment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BitwiseCompliment" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreatestOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GreatestOfThree" />
+    <configuration name="BitwiseOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BitwiseOddEven" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LeapYear" />
+    <configuration name="LeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LeftShift" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.OddEven" />
+    <configuration name="RightShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RightShift" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CategorizePeople" />
-        <item itemvalue="Application.CalculateGrades" />
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.GreatestOfThree" />
-        <item itemvalue="Application.OddEven" />
+        <item itemvalue="Application.BitwiseOddEven" />
+        <item itemvalue="Application.LeftShift" />
+        <item itemvalue="Application.RightShift" />
+        <item itemvalue="Application.BitwiseCompliment" />
+        <item itemvalue="Application.BitwiseAnd" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732467536911</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change in logic">
+      <option name="closed" value="true" />
+      <created>1732472717424</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732472717424</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,6 +261,7 @@
     <MESSAGE value="changed file names&#10;added new challenges" />
     <MESSAGE value="compound interest fix" />
     <MESSAGE value="new challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="new challenges" />
+    <MESSAGE value="change in logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="change in logic" />
   </component>
 </project>
