@@ -5,6 +5,7 @@ import java.util.Scanner;
 class BitwiseOddEven {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Bitwise Odd Even");
         System.out.print("Enter a number: ");
         int num = input.nextInt();
 
