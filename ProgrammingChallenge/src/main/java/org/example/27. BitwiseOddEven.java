@@ -3,6 +3,11 @@ package org.example;
 import java.util.Scanner;
 
 class BitwiseOddEven {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Bitwise Odd Even");
