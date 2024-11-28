@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="writing methods" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="new challenges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/31. SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/31. SumOfDigits.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,8 +75,11 @@
     "Application.CategorizePeople.executor": "Run",
     "Application.CheckNumber.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
+    "Application.GCD.executor": "Run",
     "Application.GreatestOfThree.executor": "Run",
+    "Application.LCM.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LeftShift.executor": "Run",
     "Application.Morning.executor": "Run",
@@ -86,6 +92,7 @@
     "Application.Subscribe.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.SumOddNumbers.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -101,9 +108,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOddNumbers">
-    <configuration name="BitwiseOddEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BitwiseOddEven" />
+  <component name="RunManager" selected="Application.GCD">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Factorial" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeftShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LeftShift" />
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GCD" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -128,21 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MultiplicationTable" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RightShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RightShift" />
+    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LCM" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -167,13 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SumOfDigits" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.LCM" />
+        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.SumOddNumbers" />
-        <item itemvalue="Application.MultiplicationTable" />
-        <item itemvalue="Application.RightShift" />
-        <item itemvalue="Application.LeftShift" />
-        <item itemvalue="Application.BitwiseOddEven" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732645413883</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="odd sum">
+      <option name="closed" value="true" />
+      <created>1732645917757</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732645917757</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new challenges">
+      <option name="closed" value="true" />
+      <created>1732716867751</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732716867751</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -298,11 +321,12 @@
     <MESSAGE value="Challenges" />
     <MESSAGE value="changed file names&#10;added new challenges" />
     <MESSAGE value="compound interest fix" />
-    <MESSAGE value="new challenges" />
     <MESSAGE value="change in logic" />
     <MESSAGE value="change to update" />
     <MESSAGE value="testing comments" />
     <MESSAGE value="writing methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="writing methods" />
+    <MESSAGE value="odd sum" />
+    <MESSAGE value="new challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="new challenges" />
   </component>
 </project>
