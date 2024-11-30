@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="new challenges">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/31. SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/31. SumOfDigits.java" afterDir="false" />
-    </list>
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="armstrong number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +82,7 @@
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.OddEven.executor": "Run",
+    "Application.PalindromeNumber.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
     "Application.ProductFloat.executor": "Run",
     "Application.RightShift.executor": "Run",
@@ -108,7 +106,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCD">
+  <component name="RunManager" selected="Application.PalindromeNumber">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Factorial" />
       <module name="ProgrammingChallenge" />
@@ -148,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SumOddNumbers" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeNumber" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.LCM" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.SumOddNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732716867751</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="armstrong number">
+      <option name="closed" value="true" />
+      <created>1732990108763</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732990108763</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -327,6 +333,7 @@
     <MESSAGE value="writing methods" />
     <MESSAGE value="odd sum" />
     <MESSAGE value="new challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="new challenges" />
+    <MESSAGE value="armstrong number" />
+    <option name="LAST_COMMIT_MESSAGE" value="armstrong number" />
   </component>
 </project>
