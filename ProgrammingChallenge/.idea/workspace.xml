@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="armstrong number" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="new challenges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +76,7 @@
     "Application.CompoundInterest.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
     "Application.GCD.executor": "Run",
     "Application.GreatestOfThree.executor": "Run",
     "Application.LCM.executor": "Run",
@@ -85,6 +88,7 @@
     "Application.PalindromeNumber.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
     "Application.ProductFloat.executor": "Run",
+    "Application.ReverseDigits.executor": "Run",
     "Application.RightShift.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.Subscribe.executor": "Run",
@@ -94,7 +98,7 @@
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "challenge-2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -106,9 +110,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeNumber">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Factorial" />
+  <component name="RunManager" selected="Application.FibonacciSeries">
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciSeries" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeNumber" />
+    <configuration name="ReverseDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ReverseDigits" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalindromeNumber" />
+        <item itemvalue="Application.FibonacciSeries" />
+        <item itemvalue="Application.ReverseDigits" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.LCM" />
         <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
