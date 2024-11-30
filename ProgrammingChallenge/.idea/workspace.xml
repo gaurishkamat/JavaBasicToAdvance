@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="new challenges">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="armstrong number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,6 @@
     "Application.CompoundInterest.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
     "Application.GCD.executor": "Run",
     "Application.GreatestOfThree.executor": "Run",
     "Application.LCM.executor": "Run",
@@ -87,8 +84,8 @@
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
+    "Application.PrintPatterns.executor": "Run",
     "Application.ProductFloat.executor": "Run",
-    "Application.ReverseDigits.executor": "Run",
     "Application.RightShift.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.Subscribe.executor": "Run",
@@ -98,7 +95,7 @@
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "challenge-2",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -110,20 +107,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeries">
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciSeries" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintPatterns">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GCD" />
       <module name="ProgrammingChallenge" />
@@ -150,8 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ReverseDigits" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeNumber" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PrintPatterns" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -178,8 +175,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.ReverseDigits" />
+        <item itemvalue="Application.PrintPatterns" />
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.LCM" />
         <item itemvalue="Application.SumOfDigits" />
