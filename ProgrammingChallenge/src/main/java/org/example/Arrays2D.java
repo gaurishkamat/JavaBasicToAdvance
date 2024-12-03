@@ -9,10 +9,12 @@ class Arrays2D {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter numbers: ");
+
         int i = 0;
         while(i < 3){
             int j = 0;
             while (j < 3){
+                System.out.print("["+i+"]["+j+"] -> ");
                 numbers2D[i][j] = input.nextInt();
                 j++;
             }
@@ -25,9 +27,10 @@ class Arrays2D {
         while(i < 3){
             int j = 0;
             while (j < 3){
-                System.out.println(" " + numbers2D[i][j]);
+                System.out.print(numbers2D[i][j] + " ");
                 j++;
             }
+            System.out.println();
             i++;
         }
     }
