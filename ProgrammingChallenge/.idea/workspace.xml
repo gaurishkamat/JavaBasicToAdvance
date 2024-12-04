@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="armstrong number" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/40. SumAndAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/40. SumAndAverage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +93,7 @@
     "Application.SimpleInterest.executor": "Run",
     "Application.Subscribe.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.SumAndAverage.executor": "Run",
     "Application.SumOddNumbers.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.Swap.executor": "Run",
@@ -107,7 +111,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrintPatterns">
+  <component name="RunManager" selected="Application.SumAndAverage">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GCD" />
       <module name="ProgrammingChallenge" />
@@ -160,8 +164,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SumOfDigits" />
+    <configuration name="SumAndAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SumAndAverage" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumAndAverage" />
         <item itemvalue="Application.PrintPatterns" />
         <item itemvalue="Application.PalindromeNumber" />
-        <item itemvalue="Application.GCD" />
         <item itemvalue="Application.LCM" />
-        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732990108763</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="array challenges">
+      <option name="closed" value="true" />
+      <created>1733250396389</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733250396389</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,6 +347,7 @@
     <MESSAGE value="odd sum" />
     <MESSAGE value="new challenges" />
     <MESSAGE value="armstrong number" />
-    <option name="LAST_COMMIT_MESSAGE" value="armstrong number" />
+    <MESSAGE value="array challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="array challenges" />
   </component>
 </project>
