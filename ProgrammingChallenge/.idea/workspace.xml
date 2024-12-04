@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/40. SumAndAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/40. SumAndAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/42. MaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/42. MaxAndMin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="challenge-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -82,6 +82,7 @@
     "Application.LCM.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LeftShift.executor": "Run",
+    "Application.MaxAndMin.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.OddEven.executor": "Run",
@@ -99,7 +100,7 @@
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "challenge-2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -111,7 +112,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumAndAverage">
+  <component name="RunManager">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.GCD" />
       <module name="ProgrammingChallenge" />
@@ -349,5 +350,16 @@
     <MESSAGE value="armstrong number" />
     <MESSAGE value="array challenges" />
     <option name="LAST_COMMIT_MESSAGE" value="array challenges" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
