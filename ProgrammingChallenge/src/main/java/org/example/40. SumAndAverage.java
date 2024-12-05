@@ -4,16 +4,17 @@ import java.util.Scanner;
 
 class SumAndAverage {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int[] numbers = new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        System.out.println("Welcome to array sum and average: ");
+        int[] numArray = ArrayUtility.inputArray();
 
-        int i = 0;
         int sum = 0;
-        while(i < numbers.length){
-            sum += numbers[i];
+        int i = 0;
+
+        while(i < numArray.length){
+            sum += numArray[i];
             i++;
         }
         System.out.println("Sum: " + sum);
-        System.out.println("Average: " + (float) sum/numbers.length);
+        System.out.println("Average: " + (float) sum/numArray.length);
     }
 }
