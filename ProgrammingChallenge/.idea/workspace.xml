@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/41. OccuranceOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/41. OccurrenceOfNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +84,7 @@
     "Application.MaxAndMin.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
+    "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
@@ -109,9 +112,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCD">
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.GCD" />
+  <component name="RunManager" selected="Application.OccurrenceOfNumber">
+    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LCM" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LCM" />
+    <configuration name="OccurrenceOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.OccurrenceOfNumber" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OccurrenceOfNumber" />
         <item itemvalue="Application.SumAndAverage" />
         <item itemvalue="Application.PrintPatterns" />
         <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.LCM" />
-        <item itemvalue="Application.GCD" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +333,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733250396389</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="array challenges">
+      <option name="closed" value="true" />
+      <created>1733422771036</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733422771036</updated>
+    </task>
+    <task id="LOCAL-00019" summary="array challenges">
+      <option name="closed" value="true" />
+      <created>1733422786157</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733422786157</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
