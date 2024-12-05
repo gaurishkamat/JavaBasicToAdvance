@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 class SumAndAverage {
     public static void main(String[] args) {
         System.out.println("Welcome to array sum and average: ");
