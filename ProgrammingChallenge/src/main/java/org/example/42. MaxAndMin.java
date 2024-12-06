@@ -4,19 +4,13 @@ import java.util.Scanner;
 
 class MaxAndMin {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the array::");
-
-        int[] myArray = new int[5];
-        for(int i=0;i<myArray.length;i++){
-            myArray[i]=input.nextInt();
-        }
+        int[] myArray = ArrayUtility.inputArray();
 
         int min = getMinimun(myArray);
-        System.out.println("Minimum value is:: "+ min);
+        System.out.println("Minimum value is: "+ min);
 
         int max = getMaximum(myArray);
-        System.out.println("Maximum value is:: "+ max);
+        System.out.println("Maximum value is: "+ max);
 
     }
 
