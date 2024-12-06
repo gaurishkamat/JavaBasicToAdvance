@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 class MaxAndMin {
     public static void main(String[] args) {
         int[] myArray = ArrayUtility.inputArray();
