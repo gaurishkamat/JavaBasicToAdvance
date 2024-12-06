@@ -4,7 +4,7 @@ class MaxAndMin {
     public static void main(String[] args) {
         int[] myArray = ArrayUtility.inputArray();
 
-        int min = getMinimun(myArray);
+        int min = getMinimum(myArray);
         System.out.println("Minimum value is: "+ min);
 
         int max = getMaximum(myArray);
@@ -12,7 +12,7 @@ class MaxAndMin {
 
     }
 
-    public static int getMinimun(int[] array){
+    public static int getMinimum(int[] array){
         int min =array[0];
 
         for(int _item:array){
