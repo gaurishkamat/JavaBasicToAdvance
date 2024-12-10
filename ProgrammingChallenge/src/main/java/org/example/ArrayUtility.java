@@ -36,11 +36,11 @@ public class ArrayUtility {
         int[][] numArr = new int[rows][columns];
 
         int i = 0;
-        int j = 0;
 
         while (i < rows){
+            int j = 0;
             while (j < columns) {
-                System.out.print("Please enter element no [" + (i + 1) + "][" + (j + 1) + "]: ");
+                System.out.print("Please enter element no [" + (i) + "][" + (j) + "]: ");
                 numArr[i][j] = input.nextInt();
                 j++;
             }
