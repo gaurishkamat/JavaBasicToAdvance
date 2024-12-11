@@ -26,7 +26,7 @@ class SumTwoDiagonal {
         while(i<rows){
             int j = 0;
             while(j<cols){
-                if(i == j){
+                if(i == j || i + j == (rows -1)){
                     sum+= numArr[i][j];
                 }
                 j++;
