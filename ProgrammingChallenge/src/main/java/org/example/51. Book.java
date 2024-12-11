@@ -56,8 +56,8 @@ class Book {
         book1.returnBook();
 
         Book book2 = new Book("129968");
-        book1.borrowBook();
-        book1.returnBook();
+        book2.borrowBook();
+        book2.returnBook();
 
         int count = Book.getTotalBooks();
         System.out.println("Total number of books: " + count );
