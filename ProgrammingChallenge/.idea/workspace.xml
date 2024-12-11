@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges 2d">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/50. SumTwoDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/50. SumTwoDiagonal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +104,7 @@
     "Application.SumAndAverage2D.executor": "Run",
     "Application.SumOddNumbers.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
-    "Application.SumTwoDiagonal.executor": "Run",
+    "Application.SumTwoDiagonal.executor": "Debug",
     "Application.Swap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -420,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733852156303</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="array challenges 2d">
+      <option name="closed" value="true" />
+      <created>1733852738727</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733852738727</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
