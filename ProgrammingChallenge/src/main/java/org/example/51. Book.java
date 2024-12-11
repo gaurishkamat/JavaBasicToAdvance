@@ -55,7 +55,7 @@ class Book {
         book1.borrowBook();
         book1.returnBook();
 
-        Book book2 = new Book("Two States", "Chetan Bhagat", "129968");
+        Book book2 = new Book("129968");
         book1.borrowBook();
         book1.returnBook();
 
