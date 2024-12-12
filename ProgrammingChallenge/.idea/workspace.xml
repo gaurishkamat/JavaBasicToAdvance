@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="array challenges 2d">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="classes and objects">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +68,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Absolute.executor": "Debug",
     "Application.AreaTriangle.executor": "Run",
     "Application.ArithmeticOperations.executor": "Run",
+    "Application.BasicCalculator.executor": "Run",
     "Application.BitwiseAnd.executor": "Run",
     "Application.BitwiseCompliment.executor": "Run",
     "Application.BitwiseOddEven.executor": "Run",
@@ -80,6 +82,7 @@
     "Application.CheckSortedArray.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
     "Application.Course.executor": "Run",
+    "Application.EvenOrOdd.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
     "Application.GCD.executor": "Run",
@@ -90,6 +93,8 @@
     "Application.LeftShift.executor": "Run",
     "Application.MaxAndMin.executor": "Run",
     "Application.MergeSortedArrays.executor": "Run",
+    "Application.MinOfTwo.executor": "Run",
+    "Application.MonthOfYear.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.OccurrenceOfNumber.executor": "Run",
@@ -124,9 +129,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Course">
-    <configuration name="Book" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Book" />
+  <component name="RunManager" selected="Application.BasicCalculator">
+    <configuration name="Absolute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Absolute" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Course" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Course" />
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BasicCalculator" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Search2DArray" />
+    <configuration name="EvenOrOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.EvenOrOdd" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +169,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumAndAverage2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SumAndAverage2D" />
+    <configuration name="MinOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MinOfTwo" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumTwoDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SumTwoDiagonal" />
+    <configuration name="MonthOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MonthOfYear" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -192,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Course" />
-        <item itemvalue="Application.Book" />
-        <item itemvalue="Application.SumTwoDiagonal" />
-        <item itemvalue="Application.SumAndAverage2D" />
-        <item itemvalue="Application.Search2DArray" />
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.MonthOfYear" />
+        <item itemvalue="Application.Absolute" />
+        <item itemvalue="Application.EvenOrOdd" />
+        <item itemvalue="Application.MinOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +446,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733901087993</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="classes and objects">
+      <option name="closed" value="true" />
+      <created>1733939846972</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1733939846972</updated>
+    </task>
+    <task id="LOCAL-00031" summary="classes and objects">
+      <option name="closed" value="true" />
+      <created>1733939874818</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733939874818</updated>
+    </task>
+    <task id="LOCAL-00032" summary="classes and objects">
+      <option name="closed" value="true" />
+      <created>1733939887704</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1733939887704</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -458,7 +487,8 @@
     <MESSAGE value="armstrong number" />
     <MESSAGE value="array challenges" />
     <MESSAGE value="array challenges 2d" />
-    <option name="LAST_COMMIT_MESSAGE" value="array challenges 2d" />
+    <MESSAGE value="classes and objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes and objects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -467,6 +497,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
           <line>50</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/58. BasicCalculator.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
