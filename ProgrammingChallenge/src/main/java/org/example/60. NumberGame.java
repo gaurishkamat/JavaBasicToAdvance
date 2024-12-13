@@ -16,6 +16,6 @@ class NumberGame {
             System.out.println(random);
         }while(guess != random );
 
-        System.out.println("Hooray you guessed it right!!");
+        System.out.println("Hooray!! you guessed it right.");
     }
 }
