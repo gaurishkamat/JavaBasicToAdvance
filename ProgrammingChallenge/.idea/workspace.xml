@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="new switch case">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="number guess" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +95,7 @@
     "Application.MonthOfYear.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
+    "Application.NumberGame.executor": "Run",
     "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
@@ -131,20 +130,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PasswordChecker">
-    <configuration name="Absolute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Absolute" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumberGame">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BasicCalculator" />
       <module name="ProgrammingChallenge" />
@@ -160,6 +146,19 @@
     </configuration>
     <configuration name="MonthOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MonthOfYear" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.NumberGame" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberGame" />
         <item itemvalue="Application.PasswordChecker" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.ScoreChecker" />
         <item itemvalue="Application.MonthOfYear" />
-        <item itemvalue="Application.Absolute" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +527,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734110946457</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="password checker">
+      <option name="closed" value="true" />
+      <created>1734116903918</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1734116903918</updated>
+    </task>
+    <task id="LOCAL-00041" summary="number guess">
+      <option name="closed" value="true" />
+      <created>1734117580944</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117580944</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -548,7 +563,9 @@
     <MESSAGE value="classes and objects" />
     <MESSAGE value="ternary operator" />
     <MESSAGE value="new switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="new switch case" />
+    <MESSAGE value="password checker" />
+    <MESSAGE value="number guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="number guess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,6 +574,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
           <line>50</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/60. NumberGame.java</url>
+          <line>5</line>
+          <properties class="org.example.NumberGame" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
