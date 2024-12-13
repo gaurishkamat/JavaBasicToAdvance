@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="password checker" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="number guess" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,6 +95,7 @@
     "Application.MonthOfYear.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
+    "Application.NumberGame.executor": "Run",
     "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
@@ -534,7 +535,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734116903918</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="number guess">
+      <option name="closed" value="true" />
+      <created>1734117580944</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117580944</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -555,7 +564,8 @@
     <MESSAGE value="ternary operator" />
     <MESSAGE value="new switch case" />
     <MESSAGE value="password checker" />
-    <option name="LAST_COMMIT_MESSAGE" value="password checker" />
+    <MESSAGE value="number guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="number guess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,6 +574,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
           <line>50</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/60. NumberGame.java</url>
+          <line>5</line>
+          <properties class="org.example.NumberGame" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
