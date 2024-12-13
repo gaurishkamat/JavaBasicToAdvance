@@ -13,25 +13,15 @@ class BasicCalculator {
             System.out.print("Enter operation to perform(+, -, *, /, %): ");
             String op = input.next();
 
-            switch (op){
-                case "+":
-                    System.out.println(num1 + num2);
-                    break;
-                case "-":
-                    System.out.println(num1 - num2);
-                    break;
-                case "*":
-                    System.out.println(num1 * num2);
-                    break;
-                case "/":
-                    System.out.println(num1 / num2);
-                    break;
-                case "%":
-                    System.out.println(num1 % num2);
-                    break;
-                default:
-                    System.out.println("Invalid selection");
-                    break;
-            }
+            int result = switch (op){
+                case "+" -> num1 + num2;
+                case "-" -> num1 - num2;
+                case "*" -> num1 * num2;
+                case "/" -> num1 / num2;
+                case "%" -> num1 % num2;
+                default -> -1;
+            };
+
+            System.out.println("Answer: " + result);
         }
 }
