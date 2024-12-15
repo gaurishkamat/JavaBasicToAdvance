@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="number guess" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="number guess game">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,17 +92,20 @@
     "Application.LeapYear.executor": "Run",
     "Application.LeftShift.executor": "Run",
     "Application.MaxAndMin.executor": "Run",
+    "Application.MaxValueForEach.executor": "Run",
     "Application.MergeSortedArrays.executor": "Run",
     "Application.MinOfTwo.executor": "Run",
     "Application.MonthOfYear.executor": "Run",
     "Application.Morning.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
+    "Application.MultiplicationTableFor.executor": "Run",
     "Application.NumberGame.executor": "Run",
     "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PasswordChecker.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
+    "Application.PrimeNumberFor.executor": "Run",
     "Application.PrintPatterns.executor": "Run",
     "Application.ProductFloat.executor": "Run",
     "Application.ReverseArray.executor": "Run",
@@ -130,9 +135,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberGame">
-    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.BasicCalculator" />
+  <component name="RunManager" selected="Application.MaxValueForEach">
+    <configuration name="MaxValueForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MaxValueForEach" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonthOfYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MonthOfYear" />
+    <configuration name="MultiplicationTableFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MultiplicationTableFor" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -183,8 +188,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ScoreChecker" />
+    <configuration name="PrimeNumberFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PrimeNumberFor" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -198,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxValueForEach" />
+        <item itemvalue="Application.PrimeNumberFor" />
+        <item itemvalue="Application.MultiplicationTableFor" />
         <item itemvalue="Application.NumberGame" />
         <item itemvalue="Application.PasswordChecker" />
-        <item itemvalue="Application.BasicCalculator" />
-        <item itemvalue="Application.ScoreChecker" />
-        <item itemvalue="Application.MonthOfYear" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734117580944</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="number guess game">
+      <option name="closed" value="true" />
+      <created>1734117789823</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1734117789823</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -565,7 +578,8 @@
     <MESSAGE value="new switch case" />
     <MESSAGE value="password checker" />
     <MESSAGE value="number guess" />
-    <option name="LAST_COMMIT_MESSAGE" value="number guess" />
+    <MESSAGE value="number guess game" />
+    <option name="LAST_COMMIT_MESSAGE" value="number guess game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
