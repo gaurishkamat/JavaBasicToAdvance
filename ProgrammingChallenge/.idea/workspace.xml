@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="for loop and more" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="for loop and more">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/62. PrimeNumberFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/62. PrimeNumberFor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +77,7 @@
     "Application.BitwiseCompliment.executor": "Run",
     "Application.BitwiseOddEven.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.BreakWords.executor": "Run",
     "Application.CalculateGrades.executor": "Run",
     "Application.CategorizePeople.executor": "Run",
     "Application.CheckNumber.executor": "Run",
@@ -85,6 +89,7 @@
     "Application.EvenOrOdd.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
+    "Application.FibonacciNumber.executor": "Run",
     "Application.FindOccurrence.executor": "Run",
     "Application.GCD.executor": "Run",
     "Application.GreatestOfThree.executor": "Run",
@@ -137,7 +142,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContinueEven">
+  <component name="RunManager" selected="Application.FibonacciNumber">
+    <configuration name="BreakWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.BreakWords" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContinueAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ContinueAdd" />
       <module name="ProgrammingChallenge" />
@@ -164,6 +182,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciNumber" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.FindOccurrence" />
       <module name="ProgrammingChallenge" />
@@ -177,39 +208,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValueForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MaxValueForEach" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeNumberFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PrimeNumberFor" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciNumber" />
+        <item itemvalue="Application.BreakWords" />
         <item itemvalue="Application.ContinueEven" />
         <item itemvalue="Application.ContinueAdd" />
         <item itemvalue="Application.FindOccurrence" />
-        <item itemvalue="Application.MaxValueForEach" />
-        <item itemvalue="Application.PrimeNumberFor" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +595,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734372637902</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="for loop and more">
+      <option name="closed" value="true" />
+      <created>1734372877775</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1734372877775</updated>
+    </task>
+    <task id="LOCAL-00048" summary="for loop and more">
+      <option name="closed" value="true" />
+      <created>1734372894191</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1734372894191</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
