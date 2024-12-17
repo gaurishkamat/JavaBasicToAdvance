@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="for loop and more">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/62. PrimeNumberFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/62. PrimeNumberFor.java" afterDir="false" />
-    </list>
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="for loop and more" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +106,7 @@
     "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
+    "Application.PalindromeString.executor": "Run",
     "Application.PasswordChecker.executor": "Run",
     "Application.PerimeterRectangle.executor": "Run",
     "Application.PrimeNumberFor.executor": "Run",
@@ -142,7 +140,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciNumber">
+  <component name="RunManager" selected="Application.PalindromeString">
     <configuration name="BreakWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BreakWords" />
       <module name="ProgrammingChallenge" />
@@ -195,8 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FindOccurrence" />
+    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeString" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeString" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.BreakWords" />
         <item itemvalue="Application.ContinueEven" />
         <item itemvalue="Application.ContinueAdd" />
-        <item itemvalue="Application.FindOccurrence" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734372894191</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="for loop and more">
+      <option name="closed" value="true" />
+      <created>1734457872488</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1734457872488</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -644,6 +650,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
           <line>50</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/60. NumberGame.java</url>
