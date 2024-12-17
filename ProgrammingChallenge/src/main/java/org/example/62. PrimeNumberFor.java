@@ -8,12 +8,9 @@ class PrimeNumberFor {
         System.out.println("Welcome to Prime checker");
         System.out.print("Enter a number: ");
         int num = input.nextInt();
-        boolean isPrime = isPrime(num);
-        if(isPrime){
-            System.out.println("Given number is Prime");
-        }else{
-            System.out.println("Given number is not Prime");
-        }
+
+        System.out.println("Given number is Prime " + (isPrime(num) ? "Prime" : "not Prime"));
+
     }
 
     public static boolean isPrime(int num){

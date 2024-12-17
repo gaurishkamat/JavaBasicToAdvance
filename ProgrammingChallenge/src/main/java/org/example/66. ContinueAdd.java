@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 class ContinueAdd {
     public static void main(String[] args) {
         int[] arr = ArrayUtility.inputArray();
