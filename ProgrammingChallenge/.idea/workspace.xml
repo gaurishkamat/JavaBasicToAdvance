@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="for loop and more" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="palindrome recursion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,77 +67,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Absolute.executor": "Debug",
-    "Application.AreaTriangle.executor": "Run",
-    "Application.ArithmeticOperations.executor": "Run",
-    "Application.BasicCalculator.executor": "Run",
-    "Application.BitwiseAnd.executor": "Run",
-    "Application.BitwiseCompliment.executor": "Run",
-    "Application.BitwiseOddEven.executor": "Run",
-    "Application.Book.executor": "Run",
-    "Application.BreakWords.executor": "Run",
-    "Application.CalculateGrades.executor": "Run",
-    "Application.CategorizePeople.executor": "Run",
-    "Application.CheckNumber.executor": "Run",
-    "Application.CheckSortedArray.executor": "Run",
-    "Application.CompoundInterest.executor": "Run",
-    "Application.ContinueAdd.executor": "Run",
-    "Application.ContinueEven.executor": "Run",
-    "Application.Course.executor": "Run",
-    "Application.EvenOrOdd.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FahrenheitToCelsius.executor": "Run",
-    "Application.FibonacciNumber.executor": "Run",
-    "Application.FindOccurrence.executor": "Run",
-    "Application.GCD.executor": "Run",
-    "Application.GreatestOfThree.executor": "Run",
-    "Application.IsPalindromeArray.executor": "Run",
-    "Application.LCM.executor": "Run",
-    "Application.LeapYear.executor": "Run",
-    "Application.LeftShift.executor": "Run",
-    "Application.MaxAndMin.executor": "Run",
-    "Application.MaxValueForEach.executor": "Run",
-    "Application.MergeSortedArrays.executor": "Run",
-    "Application.MinOfTwo.executor": "Run",
-    "Application.MonthOfYear.executor": "Run",
-    "Application.Morning.executor": "Run",
-    "Application.MultiplicationTable.executor": "Run",
-    "Application.MultiplicationTableFor.executor": "Run",
-    "Application.NumberGame.executor": "Run",
-    "Application.OccurrenceOfNumber.executor": "Run",
-    "Application.OddEven.executor": "Run",
-    "Application.PalindromeNumber.executor": "Run",
-    "Application.PalindromeString.executor": "Run",
-    "Application.PasswordChecker.executor": "Run",
-    "Application.PerimeterRectangle.executor": "Run",
-    "Application.PrimeNumberFor.executor": "Run",
-    "Application.PrintPatterns.executor": "Run",
-    "Application.ProductFloat.executor": "Run",
-    "Application.ReverseArray.executor": "Run",
-    "Application.RightShift.executor": "Run",
-    "Application.ScoreChecker.executor": "Run",
-    "Application.Search2DArray.executor": "Run",
-    "Application.SimpleInterest.executor": "Run",
-    "Application.Subscribe.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.SumAndAverage.executor": "Run",
-    "Application.SumAndAverage2D.executor": "Run",
-    "Application.SumOddNumbers.executor": "Run",
-    "Application.SumOfDigits.executor": "Run",
-    "Application.SumTwoDiagonal.executor": "Run",
-    "Application.Swap.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "challenge-2",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/a117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Absolute.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AreaTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArithmeticOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitwiseAnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitwiseCompliment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BitwiseOddEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreakWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculateGrades.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CategorizePeople.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompoundInterest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContinueAdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContinueEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Course.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOrOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FahrenheitToCelsius.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindOccurrence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GCD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatestOfThree.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsPalindromeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LCM.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeapYear.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftShift.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxAndMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxValueForEach.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinOfTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonthOfYear.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Morning.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultiplicationTableFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OccurrenceOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PasswordChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PerimeterRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeNumberFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintPatterns.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductFloat.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightShift.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScoreChecker.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Search2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleInterest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subscribe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumAndAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumAndAverage2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOddNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumTwoDiagonal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Swap.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;challenge-2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/a117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
@@ -224,14 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00001" summary="change of structure">
-      <option name="closed" value="true" />
-      <created>1732210154535</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1732210154535</updated>
     </task>
     <task id="LOCAL-00002" summary="Challenges">
       <option name="closed" value="true" />
@@ -617,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734457872488</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="palindrome recursion">
+      <option name="closed" value="true" />
+      <created>1734458247840</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1734458247840</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -641,7 +644,8 @@
     <MESSAGE value="number guess" />
     <MESSAGE value="number guess game" />
     <MESSAGE value="for loop and more" />
-    <option name="LAST_COMMIT_MESSAGE" value="for loop and more" />
+    <MESSAGE value="palindrome recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrome recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,11 +654,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/37. ArmstrongNumber.java</url>
           <line>50</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/60. NumberGame.java</url>
