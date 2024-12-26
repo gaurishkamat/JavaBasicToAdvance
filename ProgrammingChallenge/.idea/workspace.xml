@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="palindrome recursion">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="palindrome string builder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/69. PalindromeString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,22 +142,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromeString">
+  <component name="RunManager" selected="Application.Student">
     <configuration name="BreakWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.BreakWords" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContinueAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ContinueAdd" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -209,13 +195,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Student" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.PalindromeString" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.BreakWords" />
         <item itemvalue="Application.ContinueEven" />
-        <item itemvalue="Application.ContinueAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Challenges">
-      <option name="closed" value="true" />
-      <created>1732210836569</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1732210836569</updated>
     </task>
     <task id="LOCAL-00003" summary="Challenges">
       <option name="closed" value="true" />
@@ -620,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734458247840</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="palindrome string builder">
+      <option name="closed" value="true" />
+      <created>1735237261561</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1735237261562</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -645,7 +644,8 @@
     <MESSAGE value="number guess game" />
     <MESSAGE value="for loop and more" />
     <MESSAGE value="palindrome recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindrome recursion" />
+    <MESSAGE value="palindrome string builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrome string builder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
