@@ -22,4 +22,11 @@ class PalindromeString {
         String newStr = str.substring(1, lastPos);
         return  isPalindrome(newStr);
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("PalindromeString{");
+        sb.append('}');
+        return sb.toString();
+    }
 }
