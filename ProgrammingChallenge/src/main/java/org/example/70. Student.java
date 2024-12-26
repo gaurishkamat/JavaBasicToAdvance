@@ -11,7 +11,7 @@ class Student {
 
     public static void main(String[] args) {
         Student student = new Student("Gaurish", 35);
-        System.out.println(student.toString());
+        System.out.println(student);
     }
 
     @Override
