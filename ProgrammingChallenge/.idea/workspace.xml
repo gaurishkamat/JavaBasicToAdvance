@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="student to string" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="area and circumference of circle">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +87,7 @@
     "Application.ContinueAdd.executor": "Run",
     "Application.ContinueEven.executor": "Run",
     "Application.Course.executor": "Run",
+    "Application.Dice.executor": "Run",
     "Application.EvenOrOdd.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FahrenheitToCelsius.executor": "Run",
@@ -143,7 +146,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Circle">
+  <component name="RunManager" selected="Application.Dice">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Circle" />
       <module name="ProgrammingChallenge" />
@@ -170,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciNumber" />
+    <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Dice" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -211,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dice" />
         <item itemvalue="Application.Circle" />
         <item itemvalue="Application.ConcatenateConvert" />
         <item itemvalue="Application.Student" />
         <item itemvalue="Application.PalindromeString" />
-        <item itemvalue="Application.FibonacciNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00006" summary="changed file names&#10;added new challenges">
-      <option name="closed" value="true" />
-      <created>1732299060387</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1732299060387</updated>
     </task>
     <task id="LOCAL-00007" summary="compound interest fix">
       <option name="closed" value="true" />
@@ -620,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735237949197</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="area and circumference of circle">
+      <option name="closed" value="true" />
+      <created>1735238435165</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1735238435165</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -647,7 +650,8 @@
     <MESSAGE value="palindrome recursion" />
     <MESSAGE value="palindrome string builder" />
     <MESSAGE value="student to string" />
-    <option name="LAST_COMMIT_MESSAGE" value="student to string" />
+    <MESSAGE value="area and circumference of circle" />
+    <option name="LAST_COMMIT_MESSAGE" value="area and circumference of circle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
