@@ -6,7 +6,7 @@ class Dice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String ch = "y";
-        int random = 0;
+        int random;
         while (ch.equalsIgnoreCase("y")){
             random = (int) Math.floor(Math.random() * 6) + 1;
             System.out.println("you rolled!! : " + random);
