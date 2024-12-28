@@ -8,7 +8,7 @@ class Dice {
         String ch = "y";
         int random;
         while (ch.equalsIgnoreCase("y")){
-            random = (int) Math.floor(Math.random() * 6) + 1;
+            random = (int) Math.ceil(Math.random() * 6);
             System.out.println("you rolled!! : " + random);
             System.out.println("Enter Y to roll the DICE again, press N to stop");
             ch = input.next();

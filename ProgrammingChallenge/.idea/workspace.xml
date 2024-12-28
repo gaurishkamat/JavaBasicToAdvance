@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="area and circumference of circle">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="dice and random guess">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/73. Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/73. Dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/74. RandomGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/74. RandomGuess.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +119,7 @@
     "Application.PrimeNumberFor.executor": "Run",
     "Application.PrintPatterns.executor": "Run",
     "Application.ProductFloat.executor": "Run",
+    "Application.RandomGuess.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.RightShift.executor": "Run",
     "Application.ScoreChecker.executor": "Run",
@@ -146,7 +149,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dice">
+  <component name="RunManager" selected="Application.RandomGuess">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Circle" />
       <module name="ProgrammingChallenge" />
@@ -186,8 +189,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeString" />
+    <configuration name="RandomGuess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RandomGuess" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomGuess" />
         <item itemvalue="Application.Dice" />
         <item itemvalue="Application.Circle" />
         <item itemvalue="Application.ConcatenateConvert" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.PalindromeString" />
       </list>
     </recent_temporary>
   </component>
@@ -230,22 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00007" summary="compound interest fix">
-      <option name="closed" value="true" />
-      <created>1732383168716</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1732383168716</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new challenges">
-      <option name="closed" value="true" />
-      <created>1732467536911</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1732467536911</updated>
     </task>
     <task id="LOCAL-00009" summary="change in logic">
       <option name="closed" value="true" />
@@ -623,7 +610,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735238435165</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="dice and random guess">
+      <option name="closed" value="true" />
+      <created>1735407627789</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1735407627789</updated>
+    </task>
+    <task id="LOCAL-00057" summary="dice and random guess">
+      <option name="closed" value="true" />
+      <created>1735407663196</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1735407663196</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -651,7 +654,8 @@
     <MESSAGE value="palindrome string builder" />
     <MESSAGE value="student to string" />
     <MESSAGE value="area and circumference of circle" />
-    <option name="LAST_COMMIT_MESSAGE" value="area and circumference of circle" />
+    <MESSAGE value="dice and random guess" />
+    <option name="LAST_COMMIT_MESSAGE" value="dice and random guess" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
