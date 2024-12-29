@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Scanner;
-
 class ArrayToString {
     public static void main(String[] args) {
         String[] arr = new String[] {"This", "is", "the", "best", "course", "for", "Java",
