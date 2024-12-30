@@ -23,6 +23,7 @@ class BankAccount {
             money = balance;
             balance = 0;
         }
+        System.out.println(money);
     }
 
     @Override
