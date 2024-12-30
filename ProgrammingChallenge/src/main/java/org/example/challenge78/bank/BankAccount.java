@@ -1,8 +1,8 @@
 package org.example.challenge78.bank;
 
 class BankAccount {
-    private String accountNo;
-    private String name;
+    private final String accountNo;
+    private final String name;
     private double balance;
 
     public BankAccount(String accountNo, String name) {
@@ -14,7 +14,7 @@ class BankAccount {
         this.balance += money;
     }
 
-    public double withdrawMoney(double money){
+    public void withdrawMoney(double money){
         if(balance>= money){
                 balance -= money;
         }else if(money < 0){
@@ -23,7 +23,6 @@ class BankAccount {
             money = balance;
             balance = 0;
         }
-        return money;
     }
 
     @Override

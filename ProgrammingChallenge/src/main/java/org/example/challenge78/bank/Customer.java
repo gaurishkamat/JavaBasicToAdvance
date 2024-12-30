@@ -6,6 +6,6 @@ public class Customer {
         account.deposit(2000000);
         account.withdrawMoney(5000);
 
-        System.out.println(account.toString());
+        System.out.println(account);
     }
 }
