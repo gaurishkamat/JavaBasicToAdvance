@@ -1,0 +1,37 @@
+package org.example.challenge78.bank;
+
+class BankAccount {
+    private String accountNo;
+    private String name;
+    private double balance;
+
+    public BankAccount(String accountNo, String name) {
+        this.accountNo = accountNo;
+        this.name = name;
+    }
+
+    public void deposit(double money){
+        this.balance += money;
+    }
+
+    public double withdrawMoney(double money){
+        if(balance>= money){
+                balance -= money;
+        }else if(money < 0){
+            System.out.println("Invalid withdrawal");
+        }else{
+            money = balance;
+            balance = 0;
+        }
+        return money;
+    }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "accountNo='" + accountNo + '\'' +
+                ", name='" + name + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
+}
