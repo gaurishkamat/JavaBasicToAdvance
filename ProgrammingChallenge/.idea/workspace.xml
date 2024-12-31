@@ -90,6 +90,7 @@
     "Application.ContinueAdd.executor": "Run",
     "Application.ContinueEven.executor": "Run",
     "Application.Course.executor": "Run",
+    "Application.Customer.executor": "Run",
     "Application.Dice.executor": "Run",
     "Application.EvenOrOdd.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -150,7 +151,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Customer">
+  <component name="RunManager" selected="Application.TestEmployee">
     <configuration name="ArrayToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ArrayToString" />
       <module name="ProgrammingChallenge" />
@@ -203,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomGuess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RandomGuess" />
+    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge79.TestEmployee" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.challenge79.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEmployee" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.CarFinal" />
         <item itemvalue="Application.ArrayToString" />
-        <item itemvalue="Application.RandomGuess" />
       </list>
     </recent_temporary>
   </component>
@@ -234,30 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00014" summary="odd sum">
-      <option name="closed" value="true" />
-      <created>1732645917757</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1732645917757</updated>
-    </task>
-    <task id="LOCAL-00015" summary="new challenges">
-      <option name="closed" value="true" />
-      <created>1732716867751</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1732716867751</updated>
-    </task>
-    <task id="LOCAL-00016" summary="armstrong number">
-      <option name="closed" value="true" />
-      <created>1732990108763</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1732990108763</updated>
     </task>
     <task id="LOCAL-00017" summary="array challenges">
       <option name="closed" value="true" />
@@ -627,7 +604,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735581877711</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="packages">
+      <option name="closed" value="true" />
+      <created>1735583459040</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1735583459040</updated>
+    </task>
+    <task id="LOCAL-00064" summary="packages">
+      <option name="closed" value="true" />
+      <created>1735583561708</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1735583561709</updated>
+    </task>
+    <task id="LOCAL-00065" summary="packages">
+      <option name="closed" value="true" />
+      <created>1735583589810</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1735583589810</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
