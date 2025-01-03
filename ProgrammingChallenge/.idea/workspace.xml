@@ -136,6 +136,8 @@
     "Application.SumOfDigits.executor": "Run",
     "Application.SumTwoDiagonal.executor": "Run",
     "Application.Swap.executor": "Run",
+    "Application.TestClass.executor": "Run",
+    "Application.TestEmployee.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "challenge-2",
@@ -151,20 +153,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEmployee">
-    <configuration name="ArrayToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ArrayToString" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestClass">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge77.geometry.utils.Calculator" />
       <module name="ProgrammingChallenge" />
@@ -204,6 +193,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge80.library.TestClass" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge80.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge79.TestEmployee" />
       <module name="ProgrammingChallenge" />
@@ -219,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.TestEmployee" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.CarFinal" />
-        <item itemvalue="Application.ArrayToString" />
       </list>
     </recent_temporary>
   </component>
@@ -235,14 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00017" summary="array challenges">
-      <option name="closed" value="true" />
-      <created>1733250396389</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1733250396389</updated>
     </task>
     <task id="LOCAL-00018" summary="array challenges">
       <option name="closed" value="true" />
@@ -628,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735583589810</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="packages">
+      <option name="closed" value="true" />
+      <created>1735664539233</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1735664539233</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
