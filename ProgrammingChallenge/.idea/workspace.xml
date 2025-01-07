@@ -154,7 +154,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.challenge83.TestClass">
+  <component name="RunManager" selected="Application.TestFly">
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge80.library.TestClass" />
       <module name="ProgrammingChallenge" />
@@ -168,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge79.TestEmployee" />
+    <configuration name="TestFly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge84.TestFly" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge79.*" />
+          <option name="PATTERN" value="org.example.challenge84.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFly" />
         <item itemvalue="Application.org.example.challenge83.TestClass" />
         <item itemvalue="Application.org.example.challenge82.TestClass" />
         <item itemvalue="Application.org.example.challenge81.TestClass" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.TestEmployee" />
       </list>
     </recent_temporary>
   </component>
