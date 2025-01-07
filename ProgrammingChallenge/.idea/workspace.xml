@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="inheritance" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="abstract classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,6 +137,8 @@
     "Application.TestClass.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.org.example.challenge81.TestClass.executor": "Run",
+    "Application.org.example.challenge82.TestClass.executor": "Run",
+    "Application.org.example.challenge83.TestClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "challenge-2",
@@ -152,33 +154,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.challenge81.TestClass">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge77.geometry.utils.Calculator" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge77.geometry.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge78.bank.Customer" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge78.bank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestFly">
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge80.library.TestClass" />
       <module name="ProgrammingChallenge" />
@@ -192,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge79.TestEmployee" />
+    <configuration name="TestFly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge84.TestFly" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge79.*" />
+          <option name="PATTERN" value="org.example.challenge84.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +194,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.challenge82.TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge82.TestClass" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge82.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.challenge83.TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge83.TestClass" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge83.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFly" />
+        <item itemvalue="Application.org.example.challenge83.TestClass" />
+        <item itemvalue="Application.org.example.challenge82.TestClass" />
         <item itemvalue="Application.org.example.challenge81.TestClass" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.TestEmployee" />
-        <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -236,38 +238,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00020" summary="array challenges">
-      <option name="closed" value="true" />
-      <created>1733423209070</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1733423209070</updated>
-    </task>
-    <task id="LOCAL-00021" summary="array challenges">
-      <option name="closed" value="true" />
-      <created>1733508670210</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1733508670210</updated>
-    </task>
-    <task id="LOCAL-00022" summary="array challenges">
-      <option name="closed" value="true" />
-      <created>1733595955581</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1733595955581</updated>
-    </task>
-    <task id="LOCAL-00023" summary="array challenges">
-      <option name="closed" value="true" />
-      <created>1733683687148</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1733683687148</updated>
     </task>
     <task id="LOCAL-00024" summary="array challenges">
       <option name="closed" value="true" />
@@ -629,12 +599,42 @@
       <option name="project" value="LOCAL" />
       <updated>1735923786501</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="inheritance">
+      <option name="closed" value="true" />
+      <created>1735925096207</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1735925096207</updated>
+    </task>
+    <task id="LOCAL-00070" summary="nested classes">
+      <option name="closed" value="true" />
+      <created>1735925204781</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1735925204781</updated>
+    </task>
+    <task id="LOCAL-00071" summary="abstract classes">
+      <option name="closed" value="true" />
+      <created>1736272139204</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272139204</updated>
+    </task>
+    <task id="LOCAL-00072" summary="abstract classes">
+      <option name="closed" value="true" />
+      <created>1736272167508</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1736272167508</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change in logic" />
-    <MESSAGE value="change to update" />
     <MESSAGE value="testing comments" />
     <MESSAGE value="writing methods" />
     <MESSAGE value="odd sum" />
@@ -658,7 +658,9 @@
     <MESSAGE value="final keyword" />
     <MESSAGE value="packages" />
     <MESSAGE value="inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
+    <MESSAGE value="nested classes" />
+    <MESSAGE value="abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
