@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="method overloading" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="method overriding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +80,7 @@
     "Application.Calculate.executor": "Run",
     "Application.CalculateGrades.executor": "Run",
     "Application.Calculator.executor": "Run",
+    "Application.Car.executor": "Run",
     "Application.CarFinal.executor": "Run",
     "Application.CategorizePeople.executor": "Run",
     "Application.CheckNumber.executor": "Run",
@@ -241,14 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00027" summary="array challenges 2d">
-      <option name="closed" value="true" />
-      <created>1733852156303</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1733852156303</updated>
     </task>
     <task id="LOCAL-00028" summary="array challenges 2d">
       <option name="closed" value="true" />
@@ -634,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737047487054</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="method overriding">
+      <option name="closed" value="true" />
+      <created>1737047788434</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1737047788434</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="odd sum" />
     <MESSAGE value="new challenges" />
     <MESSAGE value="armstrong number" />
     <MESSAGE value="array challenges" />
@@ -663,7 +663,8 @@
     <MESSAGE value="abstract classes" />
     <MESSAGE value="interface" />
     <MESSAGE value="method overloading" />
-    <option name="LAST_COMMIT_MESSAGE" value="method overloading" />
+    <MESSAGE value="method overriding" />
+    <option name="LAST_COMMIT_MESSAGE" value="method overriding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
