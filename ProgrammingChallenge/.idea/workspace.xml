@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="exception handling">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="file handling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge88/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge88/ReadFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +159,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/challenge88" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
@@ -245,22 +247,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00030" summary="classes and objects">
-      <option name="closed" value="true" />
-      <created>1733939846972</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1733939846972</updated>
-    </task>
-    <task id="LOCAL-00031" summary="classes and objects">
-      <option name="closed" value="true" />
-      <created>1733939874818</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1733939874818</updated>
     </task>
     <task id="LOCAL-00032" summary="classes and objects">
       <option name="closed" value="true" />
@@ -638,11 +624,26 @@
       <option name="project" value="LOCAL" />
       <updated>1737225533696</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="file handling">
+      <option name="closed" value="true" />
+      <created>1737309833856</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1737309833856</updated>
+    </task>
+    <task id="LOCAL-00080" summary="file handling">
+      <option name="closed" value="true" />
+      <created>1737309849139</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1737309849139</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="armstrong number" />
     <MESSAGE value="array challenges" />
     <MESSAGE value="array challenges 2d" />
     <MESSAGE value="classes and objects" />
@@ -667,7 +668,8 @@
     <MESSAGE value="method overloading" />
     <MESSAGE value="method overriding" />
     <MESSAGE value="exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception handling" />
+    <MESSAGE value="file handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="file handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

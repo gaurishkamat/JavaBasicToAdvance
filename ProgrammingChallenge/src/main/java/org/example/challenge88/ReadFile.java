@@ -1,5 +1,6 @@
 package org.example.challenge88;
 
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -24,8 +25,10 @@ public class ReadFile {
                 block = reader.read();
                 System.out.print((char) block);
             }while (block !=-1);
+        }catch (FileNotFoundException exception){
+            System.out.printf("%s not found exception", filename);
         }catch (IOException exception){
-            System.out.printf("File not found, %s", exception.getMessage());
+            System.out.printf("Exception occurred, %s", exception.getMessage());
         }
     }
 }
