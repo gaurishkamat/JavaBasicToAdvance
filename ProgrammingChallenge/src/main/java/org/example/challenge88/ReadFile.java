@@ -1,6 +1,5 @@
 package org.example.challenge88;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +19,7 @@ public class ReadFile {
         }
 
         try(FileReader reader = new FileReader(filename)){
-            int block = 0;
+            int block;
             do{
                 block = reader.read();
                 System.out.print((char) block);
