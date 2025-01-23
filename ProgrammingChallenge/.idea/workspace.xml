@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="file handling" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="file handling">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/gaurishkamat/JavaBasicToAdvance.git&quot;,
-    &quot;accountId&quot;: &quot;67417991-98a6-41a1-a78b-fbc7299c209d&quot;
+    &quot;accountId&quot;: &quot;242ad57e-f1d5-4d4b-b782-917058715d75&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -86,6 +93,7 @@
     "Application.CheckNumber.executor": "Run",
     "Application.CheckSortedArray.executor": "Run",
     "Application.Circle.executor": "Run",
+    "Application.Comparator.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
     "Application.ConcatenateConvert.executor": "Run",
     "Application.ContinueAdd.executor": "Run",
@@ -129,6 +137,7 @@
     "Application.ScoreChecker.executor": "Run",
     "Application.Search2DArray.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
+    "Application.StringConcatenation.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.Subscribe.executor": "Run",
     "Application.Sum.executor": "Run",
@@ -141,14 +150,16 @@
     "Application.TestClass.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFly.executor": "Run",
+    "Application.VarArgs.executor": "Run",
     "Application.org.example.challenge81.TestClass.executor": "Run",
     "Application.org.example.challenge82.TestClass.executor": "Run",
     "Application.org.example.challenge83.TestClass.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "challenge-2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/a117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge",
+    "last_opened_file_path": "/Users/A117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -160,13 +171,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
-    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge85.Calculate" />
+  <component name="RunManager" selected="Application.Frequency">
+    <configuration name="Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Comparator" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge85.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,25 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge87.Calculator" />
+    <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Frequency" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge87.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge86.Car" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge86.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +211,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge84.TestFly" />
+    <configuration name="StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.StringConcatenation" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge84.*" />
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.VarArgs" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Frequency" />
+        <item itemvalue="Application.Comparator" />
+        <item itemvalue="Application.VarArgs" />
+        <item itemvalue="Application.StringConcatenation" />
         <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Calculate" />
-        <item itemvalue="Application.TestFly" />
       </list>
     </recent_temporary>
   </component>
