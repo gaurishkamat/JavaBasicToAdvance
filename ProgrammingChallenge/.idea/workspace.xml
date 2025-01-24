@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Collections">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +89,7 @@
     "Application.CheckNumber.executor": "Run",
     "Application.CheckSortedArray.executor": "Run",
     "Application.Circle.executor": "Run",
+    "Application.CollectionReverse.executor": "Run",
     "Application.Comparator.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
     "Application.ConcatenateConvert.executor": "Run",
@@ -161,7 +162,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editing.templates"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -170,7 +171,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListSwapping">
+  <component name="RunManager" selected="Application.CollectionReverse">
+    <configuration name="CollectionReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CollectionReverse" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Comparator" />
       <module name="ProgrammingChallenge" />
@@ -210,19 +224,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcatenation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StringConcatenation" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.VarArgs" />
       <module name="ProgrammingChallenge" />
@@ -238,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionReverse" />
         <item itemvalue="Application.ListSwapping" />
         <item itemvalue="Application.Frequency" />
         <item itemvalue="Application.Comparator" />
         <item itemvalue="Application.VarArgs" />
-        <item itemvalue="Application.StringConcatenation" />
       </list>
     </recent_temporary>
   </component>
@@ -254,14 +255,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00034" summary="ternary operator">
-      <option name="closed" value="true" />
-      <created>1734026534013</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1734026534013</updated>
     </task>
     <task id="LOCAL-00035" summary="ternary operator">
       <option name="closed" value="true" />
@@ -647,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1737655710191</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="List">
+      <option name="closed" value="true" />
+      <created>1737740600286</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1737740600286</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="array challenges 2d" />
     <MESSAGE value="classes and objects" />
     <MESSAGE value="ternary operator" />
     <MESSAGE value="new switch case" />
@@ -676,7 +676,8 @@
     <MESSAGE value="exception handling" />
     <MESSAGE value="file handling" />
     <MESSAGE value="Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
+    <MESSAGE value="List" />
+    <option name="LAST_COMMIT_MESSAGE" value="List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
