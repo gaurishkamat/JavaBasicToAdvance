@@ -2,7 +2,6 @@ package org.example;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Collections;
 
 class CollectionReverse {
     public static void main(String[] args) {
@@ -13,7 +12,6 @@ class CollectionReverse {
     }
 
     public static void reverse(List<Integer> list){
-//        Collections.reverse(list);
         for(int i=0; i<list.size() / 2;i++){
             ListSwapping.swap(list, i, list.size() - 1 - i);
         }
