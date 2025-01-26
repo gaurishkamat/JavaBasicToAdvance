@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Priority Queue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/94. StudentPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/94. StudentPriorityQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +150,7 @@
     "Application.TestClass.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFly.executor": "Run",
+    "Application.UniqueCharacters.executor": "Run",
     "Application.VarArgs.executor": "Run",
     "Application.org.example.challenge81.TestClass.executor": "Run",
     "Application.org.example.challenge82.TestClass.executor": "Run",
@@ -173,22 +173,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentPriorityQueue">
+  <component name="RunManager" selected="Application.UniqueCharacters">
     <configuration name="CollectionReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CollectionReverse" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Comparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Comparator" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -239,13 +226,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.UniqueCharacters" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueCharacters" />
         <item itemvalue="Application.StudentPriorityQueue" />
         <item itemvalue="Application.CollectionReverse" />
         <item itemvalue="Application.ListSwapping" />
         <item itemvalue="Application.Frequency" />
-        <item itemvalue="Application.Comparator" />
       </list>
     </recent_temporary>
   </component>
@@ -257,14 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00038" summary="ternary operator">
-      <option name="closed" value="true" />
-      <created>1734027089676</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1734027089676</updated>
     </task>
     <task id="LOCAL-00039" summary="new switch case">
       <option name="closed" value="true" />
@@ -650,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737828877107</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Priority Queue">
+      <option name="closed" value="true" />
+      <created>1737911143999</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1737911143999</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
