@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 class StudentPriorityQueue {
 
@@ -21,11 +23,31 @@ class StudentPriorityQueue {
             return grade;
         }
 
+        @Override
+        public String toString() {
+            return "Student{" +
+                    "name='" + name + '\'' +
+                    ", grade=" + grade +
+                    '}';
+        }
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello Student");
-        Student s1 = new Student("Gaurish", 'A');
+
+        PriorityQueue<Student> queue = new PriorityQueue<Student>(new Comparator<Student>() {
+            @Override
+            public int compare(Student s1, Student s2) {
+                return s1.getGrade() - s2.getGrade();
+            }
+        });
+
+        queue.offer(new Student("Gaurish", 'A'));
+        queue.offer(new Student("Rohit", 'C'));
+        queue.offer(new Student("Siddhant", 'B'));
+        queue.offer(new Student("Girish", 'A'));
+
+        System.out.printf("Queue is %s", queue);
+
     }
 
 }
