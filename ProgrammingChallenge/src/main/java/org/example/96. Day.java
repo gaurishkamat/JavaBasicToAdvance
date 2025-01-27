@@ -22,7 +22,7 @@ class EnumTest{
         System.out.println(Day.SUNDAY);
 
         for (Day day : Day.values()) {
-            System.out.println(value);
+            System.out.println(day);
         }
     }
 }
