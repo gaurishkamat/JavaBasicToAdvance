@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Enumerations">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Enumerations with attribute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,6 +97,7 @@
     "Application.ConcatenateConvert.executor": "Run",
     "Application.ContinueAdd.executor": "Run",
     "Application.ContinueEven.executor": "Run",
+    "Application.CountryMap.executor": "Run",
     "Application.Course.executor": "Run",
     "Application.Customer.executor": "Run",
     "Application.Dice.executor": "Run",
@@ -180,7 +181,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumClass">
+  <component name="RunManager" selected="Application.CountryMap">
     <configuration name=" Day" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="96. Day" />
@@ -188,6 +189,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="96.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountryMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CountryMap" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,19 +235,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.StudentPriorityQueue" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.UniqueCharacters" />
       <module name="ProgrammingChallenge" />
@@ -249,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountryMap" />
         <item itemvalue="Application.EnumClass" />
         <item itemvalue="Application.EnumTest" />
         <item itemvalue="Application. Day" />
         <item itemvalue="Application.UniqueCharacters" />
-        <item itemvalue="Application.StudentPriorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +266,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00042" summary="number guess game">
-      <option name="closed" value="true" />
-      <created>1734117789823</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1734117789823</updated>
     </task>
     <task id="LOCAL-00043" summary="for loop and more">
       <option name="closed" value="true" />
@@ -658,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738001374259</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Enumerations with attribute">
+      <option name="closed" value="true" />
+      <created>1738001750071</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1738001750071</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="password checker" />
     <MESSAGE value="number guess" />
     <MESSAGE value="number guess game" />
     <MESSAGE value="for loop and more" />
@@ -687,7 +687,8 @@
     <MESSAGE value="Priority Queue" />
     <MESSAGE value="Set" />
     <MESSAGE value="Enumerations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enumerations" />
+    <MESSAGE value="Enumerations with attribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enumerations with attribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
