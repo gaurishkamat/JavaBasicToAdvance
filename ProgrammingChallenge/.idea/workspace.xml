@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Enumerations">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/96. Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/96. Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,7 @@
     "Application.Course.executor": "Run",
     "Application.Customer.executor": "Run",
     "Application.Dice.executor": "Run",
+    "Application.EnumClass.executor": "Run",
     "Application.EnumTest.executor": "Run",
     "Application.EvenOrOdd.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -163,7 +164,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/A117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge",
+    "last_opened_file_path": "/Users/A117333338/Documents/Learning/JavaBasicToAdvance/ProgrammingChallenge/src/main/java/org/example",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -171,12 +172,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example/challenge88" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EnumTest">
+  <component name="RunManager" selected="Application.EnumClass">
     <configuration name=" Day" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="96. Day" />
@@ -191,8 +195,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CollectionReverse" />
+    <configuration name="EnumClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.EnumClass" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -245,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumClass" />
         <item itemvalue="Application.EnumTest" />
         <item itemvalue="Application. Day" />
         <item itemvalue="Application.UniqueCharacters" />
         <item itemvalue="Application.StudentPriorityQueue" />
-        <item itemvalue="Application.CollectionReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +265,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00041" summary="number guess">
-      <option name="closed" value="true" />
-      <created>1734117580944</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1734117580944</updated>
     </task>
     <task id="LOCAL-00042" summary="number guess game">
       <option name="closed" value="true" />
@@ -654,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738001350466</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Enumerations">
+      <option name="closed" value="true" />
+      <created>1738001374259</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1738001374259</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
