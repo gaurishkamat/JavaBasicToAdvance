@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Enumerations with attribute">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Hash Map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +155,7 @@
     "Application.TestClass.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFly.executor": "Run",
+    "Application.ThreadPrint$ThreadTest.executor": "Run",
     "Application.UniqueCharacters.executor": "Run",
     "Application.VarArgs.executor": "Run",
     "Application.org.example.challenge81.TestClass.executor": "Run",
@@ -181,7 +182,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountryMap">
+  <component name="RunManager" selected="Application.ThreadPrint$ThreadTest">
     <configuration name=" Day" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="96. Day" />
@@ -235,8 +236,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.UniqueCharacters" />
+    <configuration name="ThreadPrint$ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPrint$ThreadTest" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
@@ -250,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPrint$ThreadTest" />
         <item itemvalue="Application.CountryMap" />
         <item itemvalue="Application.EnumClass" />
         <item itemvalue="Application.EnumTest" />
         <item itemvalue="Application. Day" />
-        <item itemvalue="Application.UniqueCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -266,14 +267,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00043" summary="for loop and more">
-      <option name="closed" value="true" />
-      <created>1734284568003</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1734284568003</updated>
     </task>
     <task id="LOCAL-00044" summary="for loop and more">
       <option name="closed" value="true" />
@@ -659,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738001750071</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Hash Map">
+      <option name="closed" value="true" />
+      <created>1738002693690</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1738002693690</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="number guess" />
     <MESSAGE value="number guess game" />
     <MESSAGE value="for loop and more" />
     <MESSAGE value="palindrome recursion" />
@@ -688,7 +688,8 @@
     <MESSAGE value="Set" />
     <MESSAGE value="Enumerations" />
     <MESSAGE value="Enumerations with attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enumerations with attribute" />
+    <MESSAGE value="Hash Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash Map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,7 +702,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/60. NumberGame.java</url>
           <line>5</line>
-          <properties class="org.example.NumberGame" method="main">
+          <properties class="org.example.NumberGame">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
