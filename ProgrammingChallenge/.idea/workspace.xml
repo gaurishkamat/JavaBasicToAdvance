@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Thread">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Executor Service" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +121,7 @@
     "Application.MinOfTwo.executor": "Run",
     "Application.MonthOfYear.executor": "Run",
     "Application.Morning.executor": "Run",
+    "Application.MultipleThreadExecutor.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.MultiplicationTableFor.executor": "Run",
     "Application.NumberGame.executor": "Run",
@@ -270,14 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00046" summary="for loop and more">
-      <option name="closed" value="true" />
-      <created>1734372637902</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1734372637902</updated>
     </task>
     <task id="LOCAL-00047" summary="for loop and more">
       <option name="closed" value="true" />
@@ -663,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738171697279</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Executor Service">
+      <option name="closed" value="true" />
+      <created>1738258570352</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1738258570352</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for loop and more" />
     <MESSAGE value="palindrome recursion" />
     <MESSAGE value="palindrome string builder" />
     <MESSAGE value="student to string" />
@@ -692,7 +690,8 @@
     <MESSAGE value="Enumerations with attribute" />
     <MESSAGE value="Hash Map" />
     <MESSAGE value="Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+    <MESSAGE value="Executor Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Executor Service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
