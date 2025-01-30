@@ -142,6 +142,7 @@
     "Application.ScoreChecker.executor": "Run",
     "Application.Search2DArray.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
+    "Application.SingleThreadExecutor.executor": "Run",
     "Application.StringConcatenation.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentPriorityQueue.executor": "Run",
@@ -159,6 +160,8 @@
     "Application.ThreadPrint$ThreadTest.executor": "Run",
     "Application.UniqueCharacters.executor": "Run",
     "Application.VarArgs.executor": "Run",
+    "Application.org.example.challenge101.Main.executor": "Run",
+    "Application.org.example.challenge102.Main.executor": "Run",
     "Application.org.example.challenge81.TestClass.executor": "Run",
     "Application.org.example.challenge82.TestClass.executor": "Run",
     "Application.org.example.challenge83.TestClass.executor": "Run",
@@ -183,46 +186,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountryMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.CountryMap" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.EnumClass" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.EnumTest" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MultipleThreadExecutor">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge100.Main" />
       <module name="ProgrammingChallenge" />
@@ -236,12 +200,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPrint$ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ThreadPrint$ThreadTest" />
+    <configuration name="MultipleThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge104.MultipleThreadExecutor" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.challenge104.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge103.SingleThreadExecutor" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge103.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.challenge101.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge101.Main" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge101.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.challenge102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge102.Main" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge102.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleThreadExecutor" />
+        <item itemvalue="Application.SingleThreadExecutor" />
+        <item itemvalue="Application.org.example.challenge102.Main" />
+        <item itemvalue="Application.org.example.challenge101.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ThreadPrint$ThreadTest" />
-        <item itemvalue="Application.CountryMap" />
-        <item itemvalue="Application.EnumClass" />
-        <item itemvalue="Application.EnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,14 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00045" summary="for loop and more">
-      <option name="closed" value="true" />
-      <created>1734372616635</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1734372616635</updated>
     </task>
     <task id="LOCAL-00046" summary="for loop and more">
       <option name="closed" value="true" />
@@ -660,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738171056866</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Thread">
+      <option name="closed" value="true" />
+      <created>1738171697279</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1738171697279</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
