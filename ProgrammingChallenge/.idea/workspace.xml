@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Executor Service">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Futures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,14 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00048" summary="for loop and more">
-      <option name="closed" value="true" />
-      <created>1734372894191</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1734372894191</updated>
     </task>
     <task id="LOCAL-00049" summary="for loop and more">
       <option name="closed" value="true" />
@@ -665,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738258598864</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Futures">
+      <option name="closed" value="true" />
+      <created>1738259257952</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1738259257953</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="palindrome recursion" />
     <MESSAGE value="palindrome string builder" />
     <MESSAGE value="student to string" />
     <MESSAGE value="area and circumference of circle" />
@@ -694,7 +693,8 @@
     <MESSAGE value="Hash Map" />
     <MESSAGE value="Thread" />
     <MESSAGE value="Executor Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Executor Service" />
+    <MESSAGE value="Futures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Futures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
