@@ -113,6 +113,7 @@
     "Application.GreatestOfThree.executor": "Run",
     "Application.IsPalindromeArray.executor": "Run",
     "Application.LCM.executor": "Run",
+    "Application.LambdaMultiplication.executor": "Run",
     "Application.LeapYear.executor": "Run",
     "Application.LeftShift.executor": "Run",
     "Application.ListSwapping.executor": "Run",
@@ -144,6 +145,7 @@
     "Application.Search2DArray.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.SingleThreadExecutor.executor": "Run",
+    "Application.StreamOfStrings.executor": "Run",
     "Application.StringConcatenation.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentPriorityQueue.executor": "Run",
@@ -188,7 +190,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestingFactorial">
+  <component name="RunManager" selected="Application.StreamOfStrings">
+    <configuration name="LambdaMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge106.LambdaMultiplication" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge106.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultipleThreadExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge104.MultipleThreadExecutor" />
       <module name="ProgrammingChallenge" />
@@ -215,6 +230,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge107.StreamOfStrings" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge107.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge105.TestingFactorial" />
       <module name="ProgrammingChallenge" />
@@ -228,39 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.challenge101.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge101.Main" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge101.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.challenge102.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge102.Main" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge102.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamOfStrings" />
+        <item itemvalue="Application.LambdaMultiplication" />
         <item itemvalue="Application.TestingFactorial" />
         <item itemvalue="Application.MultipleThreadExecutor" />
         <item itemvalue="Application.SingleThreadExecutor" />
-        <item itemvalue="Application.org.example.challenge102.Main" />
-        <item itemvalue="Application.org.example.challenge101.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +274,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00049" summary="for loop and more">
-      <option name="closed" value="true" />
-      <created>1734457872488</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1734457872488</updated>
     </task>
     <task id="LOCAL-00050" summary="palindrome recursion">
       <option name="closed" value="true" />
@@ -665,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738259257953</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Futures">
+      <option name="closed" value="true" />
+      <created>1738328932464</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1738328932464</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
