@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Streams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge108/ConcatenateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge108/ConcatenateStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +132,7 @@
     "Application.NumberGame.executor": "Run",
     "Application.OccurrenceOfNumber.executor": "Run",
     "Application.OddEven.executor": "Run",
+    "Application.OddNumbers.executor": "Run",
     "Application.PalindromeNumber.executor": "Run",
     "Application.PalindromeString.executor": "Run",
     "Application.PasswordChecker.executor": "Run",
@@ -191,7 +193,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddNumbers">
+  <component name="RunManager" selected="Application.ConcatenateStream">
     <configuration name="ConcatenateStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge108.ConcatenateStream" />
       <module name="ProgrammingChallenge" />
@@ -259,8 +261,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OddNumbers" />
         <item itemvalue="Application.ConcatenateStream" />
+        <item itemvalue="Application.OddNumbers" />
         <item itemvalue="Application.StreamOfStrings" />
         <item itemvalue="Application.LambdaMultiplication" />
         <item itemvalue="Application.TestingFactorial" />
@@ -275,14 +277,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00051" summary="palindrome string builder">
-      <option name="closed" value="true" />
-      <created>1735237261561</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1735237261562</updated>
     </task>
     <task id="LOCAL-00052" summary="student to string=">
       <option name="closed" value="true" />
@@ -668,7 +662,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738431018086</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Streams">
+      <option name="closed" value="true" />
+      <created>1738431418798</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1738431418798</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
