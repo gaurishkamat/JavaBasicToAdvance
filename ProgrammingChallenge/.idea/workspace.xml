@@ -193,7 +193,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestingFactorial">
+  <component name="RunManager" selected="Application.OptionalString">
     <configuration name="CheckPrimeLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge110.CheckPrimeLambda" />
       <module name="ProgrammingChallenge" />
@@ -233,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge107.StreamOfStrings" />
+    <configuration name="OptionalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge112.OptionalString" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge107.*" />
+          <option name="PATTERN" value="org.example.challenge112.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalString" />
         <item itemvalue="Application.TestingFactorial" />
         <item itemvalue="Application.CheckPrimeLambda" />
         <item itemvalue="Application.ConcatenateStream" />
         <item itemvalue="Application.OddNumbers" />
-        <item itemvalue="Application.StreamOfStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -277,14 +277,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00055" summary="area and circumference of circle">
-      <option name="closed" value="true" />
-      <created>1735238435165</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1735238435165</updated>
     </task>
     <task id="LOCAL-00056" summary="dice and random guess">
       <option name="closed" value="true" />
@@ -670,7 +662,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738605812802</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Functional Interfaces">
+      <option name="closed" value="true" />
+      <created>1738693475938</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1738693475939</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
