@@ -14,7 +14,7 @@ public class TestingSorting {
         );
 
         employess.stream()
-                .sorted( (emp1,emp2) -> Integer.compare(emp1.getSalary(), emp2.getSalary()))
+                .sorted(Comparator.comparingInt(Employee::getSalary))
                 .forEach(System.out::println);
     }
 }
