@@ -1,7 +1,6 @@
 package org.example.challenge113;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class DistinctIntegers {
     public static void main(String[] args) {

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Optional">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Intermediate Operators">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge113/DistinctIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge113/DistinctIntegers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,14 +279,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00057" summary="dice and random guess">
-      <option name="closed" value="true" />
-      <created>1735407663196</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1735407663196</updated>
     </task>
     <task id="LOCAL-00058" summary="dice and guess game">
       <option name="closed" value="true" />
@@ -672,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738778495326</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Intermediate Operators">
+      <option name="closed" value="true" />
+      <created>1738848486421</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1738848486421</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dice and random guess" />
     <MESSAGE value="dice and guess game" />
     <MESSAGE value="final keyword" />
     <MESSAGE value="packages" />
@@ -701,7 +700,8 @@
     <MESSAGE value="Streams" />
     <MESSAGE value="Functional Interfaces" />
     <MESSAGE value="Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
+    <MESSAGE value="Intermediate Operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intermediate Operators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
