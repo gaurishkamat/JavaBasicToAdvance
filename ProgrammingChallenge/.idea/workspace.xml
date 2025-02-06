@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Intermediate Operators">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge114/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge114/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge114/TestingSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge114/TestingSorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +150,7 @@
     "Application.Search2DArray.executor": "Run",
     "Application.SimpleInterest.executor": "Run",
     "Application.SingleThreadExecutor.executor": "Run",
+    "Application.Square.executor": "Run",
     "Application.StreamOfStrings.executor": "Run",
     "Application.StringConcatenation.executor": "Run",
     "Application.Student.executor": "Run",
@@ -198,20 +197,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestingSorting">
-    <configuration name="CheckPrimeLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge110.CheckPrimeLambda" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge110.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Square">
     <configuration name="DistinctIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge113.DistinctIntegers" />
       <module name="ProgrammingChallenge" />
@@ -231,6 +217,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.challenge112.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge115.Square" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge115.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Square" />
         <item itemvalue="Application.TestingSorting" />
         <item itemvalue="Application.DistinctIntegers" />
         <item itemvalue="Application.OptionalString" />
         <item itemvalue="Application.TestingFactorial" />
-        <item itemvalue="Application.CheckPrimeLambda" />
       </list>
     </recent_temporary>
   </component>
@@ -282,14 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00060" summary="final keyword">
-      <option name="closed" value="true" />
-      <created>1735494776282</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1735494776282</updated>
     </task>
     <task id="LOCAL-00061" summary="packages">
       <option name="closed" value="true" />
@@ -675,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738849098457</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Intermediate Operators">
+      <option name="closed" value="true" />
+      <created>1738849135177</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1738849135177</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
