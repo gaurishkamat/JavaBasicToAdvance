@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Intermediate Operators">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/challenge113/DistinctIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/challenge113/DistinctIntegers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +166,7 @@
     "Application.TestEmployee.executor": "Run",
     "Application.TestFly.executor": "Run",
     "Application.TestingFactorial.executor": "Run",
+    "Application.TestingSorting.executor": "Run",
     "Application.ThreadPrint$ThreadTest.executor": "Run",
     "Application.UniqueCharacters.executor": "Run",
     "Application.VarArgs.executor": "Run",
@@ -195,26 +196,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DistinctIntegers">
+  <component name="RunManager" selected="Application.TestingSorting">
     <configuration name="CheckPrimeLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.challenge110.CheckPrimeLambda" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.challenge110.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcatenateStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge108.ConcatenateStream" />
-      <module name="ProgrammingChallenge" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.challenge108.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,13 +249,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestingSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.challenge114.TestingSorting" />
+      <module name="ProgrammingChallenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.challenge114.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestingSorting" />
         <item itemvalue="Application.DistinctIntegers" />
         <item itemvalue="Application.OptionalString" />
         <item itemvalue="Application.TestingFactorial" />
         <item itemvalue="Application.CheckPrimeLambda" />
-        <item itemvalue="Application.ConcatenateStream" />
       </list>
     </recent_temporary>
   </component>
@@ -279,14 +280,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00058" summary="dice and guess game">
-      <option name="closed" value="true" />
-      <created>1735411108137</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1735411108137</updated>
     </task>
     <task id="LOCAL-00059" summary="final keyword">
       <option name="closed" value="true" />
@@ -672,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738848486421</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Intermediate Operators">
+      <option name="closed" value="true" />
+      <created>1738848503499</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1738848503499</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
