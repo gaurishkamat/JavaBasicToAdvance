@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Square using reduce">
+    <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Method References">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MethodRef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,14 +283,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00063" summary="packages">
-      <option name="closed" value="true" />
-      <created>1735583459040</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1735583459040</updated>
     </task>
     <task id="LOCAL-00064" summary="packages">
       <option name="closed" value="true" />
@@ -675,11 +668,18 @@
       <option name="project" value="LOCAL" />
       <updated>1738951797728</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Method References">
+      <option name="closed" value="true" />
+      <created>1739119111689</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1739119111689</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final keyword" />
     <MESSAGE value="packages" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="nested classes" />
@@ -704,7 +704,8 @@
     <MESSAGE value="Optional" />
     <MESSAGE value="Intermediate Operators" />
     <MESSAGE value="Square using reduce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Square using reduce" />
+    <MESSAGE value="Method References" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method References" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
