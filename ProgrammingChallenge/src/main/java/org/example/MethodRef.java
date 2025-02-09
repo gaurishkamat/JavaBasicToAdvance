@@ -6,7 +6,7 @@ public class MethodRef {
     public static void main(String[] args) {
         List<String> names = List.of("Moiez", "Girish", "Gaurish");
 
-        StringBuffer str = new StringBuffer("Java Code");
+        StringBuilder str = new StringBuilder("Java Code");
         System.out.println(str.capacity());
         str.trimToSize();
         System.out.println(str.capacity());
