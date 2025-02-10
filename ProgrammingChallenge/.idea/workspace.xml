@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="Method References">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MethodRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MethodRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,14 +282,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00065" summary="packages">
-      <option name="closed" value="true" />
-      <created>1735583589810</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1735583589810</updated>
     </task>
     <task id="LOCAL-00066" summary="packages">
       <option name="closed" value="true" />
@@ -675,7 +667,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739120212254</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Method References">
+      <option name="closed" value="true" />
+      <created>1739120241131</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1739120241131</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
