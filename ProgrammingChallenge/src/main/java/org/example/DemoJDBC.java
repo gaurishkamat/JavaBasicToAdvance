@@ -1,6 +1,5 @@
 package org.example;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
 public class DemoJDBC {
