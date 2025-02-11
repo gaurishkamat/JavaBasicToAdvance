@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="JDBC connection steps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DemoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,14 +284,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00069" summary="inheritance">
-      <option name="closed" value="true" />
-      <created>1735925096207</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1735925096207</updated>
     </task>
     <task id="LOCAL-00070" summary="nested classes">
       <option name="closed" value="true" />
@@ -676,7 +669,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739298437917</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="JDBC connection steps">
+      <option name="closed" value="true" />
+      <created>1739298452952</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1739298452952</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
