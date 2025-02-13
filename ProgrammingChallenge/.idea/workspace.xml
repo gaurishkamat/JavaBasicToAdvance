@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e08717d6-6e60-4e90-a3e4-6417c1aa38b6" name="Changes" comment="JDBC connection steps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DemoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DemoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
   </component>
@@ -200,7 +201,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoJDBC">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DemoJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DemoJDBC" />
       <module name="ProgrammingChallenge" />
@@ -214,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.challenge113.DistinctIntegers" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaurish.Main" />
       <module name="ProgrammingChallenge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.challenge113.*" />
+          <option name="PATTERN" value="com.gaurish.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,11 +269,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DemoJDBC" />
         <item itemvalue="Application.MethodRef" />
         <item itemvalue="Application.Square" />
         <item itemvalue="Application.TestingSorting" />
-        <item itemvalue="Application.DistinctIntegers" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732125607265</updated>
-    </task>
-    <task id="LOCAL-00070" summary="nested classes">
-      <option name="closed" value="true" />
-      <created>1735925204781</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1735925204781</updated>
     </task>
     <task id="LOCAL-00071" summary="abstract classes">
       <option name="closed" value="true" />
@@ -677,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739298452952</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="JDBC connection steps">
+      <option name="closed" value="true" />
+      <created>1739298983293</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1739298983293</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
