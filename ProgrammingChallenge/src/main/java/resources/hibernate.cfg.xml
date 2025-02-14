@@ -1,9 +1,0 @@
-<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
-    <session-factory>
-        <property name="jakarta.persistence.jdbc.driver">org.postgresql.Driver</property>
-        <property name="jakarta.persistence.jdbc.url">jdbc:postgresql://localhost:5432/sample</property>
-        <property name="jakarta.persistence.jdbc.user">postgres</property>
-        <property name="jakarta.persistence.jdbc.password">2305</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-    </session-factory>
-</hibernate-configuration>
