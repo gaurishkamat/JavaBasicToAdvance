@@ -26,7 +26,12 @@ public class Main {
 
         Transaction transaction = session.beginTransaction();
 
-        session.persist(student);
+        // CRUD operations
+
+        session.persist(student); // create
+//        session.get(Student.class, 92); read
+//        session.merge(student); update
+//        session.remove(student); delete
 
         transaction.commit();
         session.close();
