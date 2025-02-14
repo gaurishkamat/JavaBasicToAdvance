@@ -10,9 +10,9 @@ public class Main {
 
         Student student = new Student();
 
-        student.setRollNo(91);
-        student.setName("Girish");
-        student.setAge(36);
+        student.setRollNo(17);
+        student.setName("Moiez");
+        student.setAge(31);
 
         Class.forName("org.postgresql.Driver");
 
