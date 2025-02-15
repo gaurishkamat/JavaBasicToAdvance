@@ -38,12 +38,21 @@ public class Laptop {
         this.ram = ram;
     }
 
+    public Alien getAlien() {
+        return alien;
+    }
+
+    public void setAlien(Alien alien) {
+        this.alien = alien;
+    }
+
     @Override
     public String toString() {
         return "Laptop{" +
                 "lid=" + lid +
                 ", model='" + model + '\'' +
                 ", ram=" + ram +
+                ", alien=" + alien +
                 '}';
     }
 }

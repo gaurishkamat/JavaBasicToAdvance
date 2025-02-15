@@ -8,7 +8,7 @@ import org.hibernate.cfg.Configuration;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
 
         /*Student student = new Student();
 
