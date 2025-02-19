@@ -1,4 +1,4 @@
-package com.gaurish.SpringBootDemo;
+package com.gaurish.SpringBootDemo.repo;
 
 import com.gaurish.SpringBootDemo.model.Laptop;
 import org.springframework.stereotype.Repository;

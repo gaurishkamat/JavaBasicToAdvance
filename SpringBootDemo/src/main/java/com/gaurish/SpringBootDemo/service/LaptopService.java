@@ -1,6 +1,6 @@
 package com.gaurish.SpringBootDemo.service;
 
-import com.gaurish.SpringBootDemo.LaptopRepository;
+import com.gaurish.SpringBootDemo.repo.LaptopRepository;
 import com.gaurish.SpringBootDemo.model.Laptop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
