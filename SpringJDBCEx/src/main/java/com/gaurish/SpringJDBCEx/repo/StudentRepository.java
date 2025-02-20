@@ -23,13 +23,13 @@ public class StudentRepository {
     }
 
     public void save(Student s) {
-        String query = "insert into student(rollNo, name, marks) values(?,?,?)";
-        int rows = jdbcTemplate.update(query, s.getRollNo(), s.getName(), s.getMarks());
+        String sqlQuery = "insert into student(rollNo, name, marks) values(?,?,?)";
+        int rows = jdbcTemplate.update(sqlQuery, s.getRollNo(), s.getName(), s.getMarks());
         System.out.printf("%d row(s) affected\n", rows);
     }
 
     public List<Student> findAll() {
-        String query = "select * from student";
+        String sqlQuery = "select * from student";
 
         RowMapper<Student> mapper = (rs, rowNum) -> {
                 Student student = new Student();
@@ -39,6 +39,6 @@ public class StudentRepository {
                 return student;
         };
 
-        return jdbcTemplate.query(query, mapper);
+        return jdbcTemplate.query(sqlQuery, mapper);
     }
 }
