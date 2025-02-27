@@ -20,7 +20,7 @@ public class JobRepo {
         return jobs;
     }
 
-    public void addJobs(JobPost job){
+    public void addJob(JobPost job){
         jobs.add(job);
     }
 }
