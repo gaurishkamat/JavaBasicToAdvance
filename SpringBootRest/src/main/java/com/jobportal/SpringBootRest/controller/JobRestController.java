@@ -25,8 +25,9 @@ public class JobRestController {
     }
 
     @PostMapping("jobs")
-    public void addJob(@RequestBody JobPost jobPost){
+    public JobPost addJob(@RequestBody JobPost jobPost){
         jobService.addJob(jobPost);
+        return jobService.getJob(jobPost.getPostId());
     }
 
 
