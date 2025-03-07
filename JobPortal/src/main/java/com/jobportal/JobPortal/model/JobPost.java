@@ -1,5 +1,6 @@
 package com.jobportal.JobPortal.model;
 
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @Component
 public class JobPost {
+    @Id
     private int postId;
     private String postProfile;
     private String postDesc;
