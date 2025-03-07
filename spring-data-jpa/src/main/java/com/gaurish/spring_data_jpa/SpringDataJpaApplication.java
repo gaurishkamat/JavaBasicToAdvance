@@ -30,9 +30,11 @@ public class SpringDataJpaApplication {
 		s3.setName("Gaurish");
 		s3.setMarks(100);
 
-		studentRepo.save(s1);
-		studentRepo.save(s2);
-		studentRepo.save(s3);
+//		studentRepo.save(s1);
+//		studentRepo.save(s2);
+//		studentRepo.save(s3);
+
+		System.out.println(studentRepo.findAll());
 
 	}
 
