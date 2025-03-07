@@ -34,7 +34,9 @@ public class SpringDataJpaApplication {
 //		studentRepo.save(s2);
 //		studentRepo.save(s3);
 
-		System.out.println(studentRepo.findAll());
+//		System.out.println(studentRepo.findAll());
+		System.out.println(studentRepo.findByName("Gaurish"));
+//		System.out.println(studentRepo.findByMarksGreaterThan(90));
 
 	}
 
