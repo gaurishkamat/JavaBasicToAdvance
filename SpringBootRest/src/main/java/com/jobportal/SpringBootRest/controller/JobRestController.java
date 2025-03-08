@@ -42,4 +42,9 @@ public class JobRestController {
         return jobService.getAllJobs();
     }
 
+    @GetMapping("loadData")
+    public String loadData(){
+        return jobService.loadData();
+    }
+
 }
