@@ -1,7 +1,9 @@
 package com.jobportal.SpringBootRest.controller;
 
 import com.jobportal.SpringBootRest.model.JobPost;
+import com.jobportal.SpringBootRest.model.User;
 import com.jobportal.SpringBootRest.service.JobService;
+import com.jobportal.SpringBootRest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,6 +15,9 @@ public class JobRestController {
 
     @Autowired
     private JobService jobService;
+
+    @Autowired
+    private UserService userService;
 
     @GetMapping("jobs")
     public List<JobPost> getJobs(){
@@ -52,4 +57,8 @@ public class JobRestController {
         return jobService.search(keyword);
     }
 
+//    @PostMapping("/saveUser")
+//    public User saveUser(@RequestBody User user){
+//        return userService.saveUser(user);
+//    }
 }
