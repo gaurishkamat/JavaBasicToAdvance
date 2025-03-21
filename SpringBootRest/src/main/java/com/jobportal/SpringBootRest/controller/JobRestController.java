@@ -16,9 +16,6 @@ public class JobRestController {
     @Autowired
     private JobService jobService;
 
-    @Autowired
-    private UserService userService;
-
     @GetMapping("jobs")
     public List<JobPost> getJobs(){
         return jobService.getAllJobs();
