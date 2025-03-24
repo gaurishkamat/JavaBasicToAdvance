@@ -19,4 +19,8 @@ public class UserService {
         System.out.println(user.getPassword());
         return  userRepo.save(user);
     }
+
+    public String login(User user) {
+        return "Success";
+    }
 }

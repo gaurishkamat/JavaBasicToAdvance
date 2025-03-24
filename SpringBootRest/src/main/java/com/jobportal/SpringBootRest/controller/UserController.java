@@ -19,4 +19,8 @@ public class UserController {
     public User register(@RequestBody User user){
        return userService.saveUser(user);
     }
+
+    public String login(@RequestBody User user){
+        return userService.login(user);
+    }
 }
